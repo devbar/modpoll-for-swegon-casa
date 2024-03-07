@@ -1,0 +1,14 @@
+[Unit]
+Description=Swegon Poll Service
+After=network-online.target
+
+[Service]
+ExecStart=/bin/bash -lc /home/pi/modpoll-for-swegon/run.sh
+WorkingDirectory=/home/pi/modpoll-for-swegon
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
