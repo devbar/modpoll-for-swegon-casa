@@ -20,11 +20,11 @@ Connect the adapter in this scheme to the SEM.
 
 Keep in mind to set the terminator for the SEM like described in manual, if you don't have more than one module in a row.
 
-![raspberry connected to swegon sem](pictures/raspi_sem.png)
+<img src='pictures/raspi_sem.png' width='250' alt="raspberry connected to swegon sem">
 
 Make sure you set the right settings for modbus on device.
 
-![modbus settings](picture/screen.png)
+<img src='pictures/screen.png' width='250' alt="modbus settings]">
 
 ## Installation: Software
 
